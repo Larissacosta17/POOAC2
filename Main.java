@@ -3,8 +3,8 @@ public class Main {
 
     Departamento RecursosHumanos = new Departamento("RH");
 
-    Funcionario joao = new Funcionario("João", 3000);
-    Gerente maria = new Gerente("Maria", 5000, 20);
-    Diretor carlos = new Diretor("Carlos", 10000, 30, 2000);
+        RecursosHumanos.funcionarios.add(new Funcionario("João", 3000));
+        RecursosHumanos.funcionarios.add(new Gerente("Maria", 5000, 0.20));
+        RecursosHumanos.funcionarios.add(new Diretor("Carlos", 10000, 0.30, 2000));
 
 }
